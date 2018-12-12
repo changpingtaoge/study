@@ -12,7 +12,15 @@ public class StudentController {
 
    private String studentName;
    private Integer studentNo;
+   private String studentPwd;
 
+    public String getStudentPwd() {
+        return studentPwd;
+    }
+
+    public void setStudentPwd(String studentPwd) {
+        this.studentPwd = studentPwd;
+    }
 
     public Integer getStudentNo() {
         return studentNo;
