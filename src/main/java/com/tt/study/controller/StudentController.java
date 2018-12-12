@@ -11,6 +11,16 @@ import org.springframework.stereotype.Controller;
 public class StudentController {
 
    private String studentName;
+   private Integer studentNo;
+
+
+    public Integer getStudentNo() {
+        return studentNo;
+    }
+
+    public void setStudentNo(Integer studentNo) {
+        this.studentNo = studentNo;
+    }
 
     public String getStudentName() {
         return studentName;
@@ -19,4 +29,6 @@ public class StudentController {
     public void setStudentName(String studentName) {
         this.studentName = studentName;
     }
+
+
 }
