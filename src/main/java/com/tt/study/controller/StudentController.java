@@ -1,4 +1,4 @@
-package com.tt.study.controller;
+﻿package com.tt.study.controller;
 
 import org.springframework.stereotype.Controller;
 
@@ -10,4 +10,5 @@ import org.springframework.stereotype.Controller;
 @Controller
 public class StudentController {
 
+   private String name;
 }
