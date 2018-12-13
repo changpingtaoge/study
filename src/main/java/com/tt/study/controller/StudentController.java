@@ -13,6 +13,15 @@ public class StudentController {
    private String studentName;
    private Integer studentNo;
    private String studentPwd;
+   private Integer age;
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public void setAge(Integer age) {
+        this.age = age;
+    }
 
     public String getStudentPwd() {
         return studentPwd;
